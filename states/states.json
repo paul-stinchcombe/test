@@ -1,0 +1,15 @@
+[
+	{
+		"name": "Draft",
+		"nextState": "Start_Application",
+		"action": "isDraft"
+	},
+	{
+		"name": "Start_Application",
+		"nextState": "Finished",
+		"action": "notifyHRToVerify"
+	},
+	{
+		"name": "Finished"
+	}
+]
