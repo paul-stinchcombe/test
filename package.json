@@ -2,16 +2,19 @@
 	"name": "test",
 	"version": "1.0.0",
 	"description": "",
+	"main": "dist/index.js",
 	"type": "module",
-	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node dist/index.js",
+		"build": "npx tsc"
 	},
 	"keywords": [],
 	"author": "Paul Stinchcombe",
 	"license": "ISC",
 	"dependencies": {
-		"ocustate": "^1.0.3",
+		"@types/express": "^4.17.21",
+		"express": "^4.19.2",
+		"ocustate": "^1.0.6",
 		"typescript": "^5.4.5"
 	}
 }
